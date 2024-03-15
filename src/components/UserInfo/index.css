@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+.profile-title {
+  color: #12022f;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-title {
+    font-size: 42px;
+  }
+}
+
+.profile-description {
+  color: #616e7c;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-description {
+    font-size: 32px;
+  }
+}

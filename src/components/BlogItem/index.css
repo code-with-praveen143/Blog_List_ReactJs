@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog-title {
+  color: #12022f;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-title {
+    font-size: 42px;
+  }
+}
+
+.blog-publishedDate {
+  color: #9aa5b1;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-right: 10px;
+}
+
+.blog-description{
+  color: #616e7c;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+hr{
+  color: #9aa5b1;
+}
